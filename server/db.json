@@ -1,0 +1,228 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Куртки",
+      "imageURL": ""
+    },
+    {
+      "id": 2,
+      "title": "Пальто",
+      "imageURL": ""
+    },
+    {
+      "id": 3,
+      "title": "Шубы",
+      "imageURL": ""
+    },
+    {
+      "id": 4,
+      "title": "Парки",
+      "imageURL": ""
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "color": "white"
+    },
+    {
+      "id": 2,
+      "color": "black"
+    },
+    {
+      "id": 3,
+      "color": "gray"
+    },
+    {
+      "id": 4,
+      "color": "blue"
+    },
+    {
+      "id": 5,
+      "color": "beige"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "colorId": 2,
+      "title": "Куртка утепленная Zarina",
+      "price": 35000,
+      "size": [42, 44, 46, 48, 50],
+      "newProd": false,
+      "sale": 15,
+      "images": [
+        "images/products/jaket/zarina/black1.webp",
+        "images/products/jaket/zarina/black2.webp",
+        "images/products/jaket/zarina/black3.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "colorId": 3,
+      "title": "Куртка утепленная Zarina",
+      "price": 35000,
+      "size": [42, 44, 46, 48],
+      "newProd": false,
+      "sale": 0,
+      "images": [
+        "images/products/jaket/zarina/gray1.webp",
+        "images/products/jaket/zarina/gray2.webp",
+        "images/products/jaket/zarina/gray3.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "colorId": 4,
+      "title": "Куртка утепленная Zarina",
+      "price": 35000,
+      "size": [42, 44, 46, 48, 50],
+      "newProd": true,
+      "sale": 0,
+      "images": [
+        "images/products/jaket/zarina/blue1.webp",
+        "images/products/jaket/zarina/blue2.webp",
+        "images/products/jaket/zarina/blue3.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "colorId": 2,
+      "title": "Куртка утепленная Befree",
+      "price": 35000,
+      "size": [42, 44, 46, 48, 50],
+      "newProd": true,
+      "sale": 10,
+      "images": [
+        "images/products/jaket/befree/black1.webp",
+        "images/products/jaket/befree/black2.webp",
+        "images/products/jaket/befree/black3.webp"
+      ]
+    },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "colorId": 1,
+      "title": "Куртка утепленная Befree",
+      "price": 35000,
+      "size": [42, 44, 46, 48, 50],
+      "newProd": true,
+      "sale": 10,
+      "images": [
+        "images/products/jaket/befree/white1.webp",
+        "images/products/jaket/befree/white2.webp",
+        "images/products/jaket/befree/white3.webp"
+      ]
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "colorId": 3,
+      "title": "Шуба Alef",
+      "price": 305600,
+      "size": [40, 42, 44, 46, 48, 50, 52],
+      "newProd": false,
+      "sale": 0,
+      "images": [
+        "images/products/shuba/alef/1.webp",
+        "images/products/shuba/alef/2.webp",
+        "images/products/shuba/alef/3.webp"
+      ]
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "colorId": 1,
+      "title": "Шуба Silver Fox",
+      "price": 465200,
+      "size": [40, 42, 44, 46, 48, 50, 52],
+      "newProd": false,
+      "sale": 30,
+      "images": [
+        "images/products/shuba/silverfox/white1.webp",
+        "images/products/shuba/silverfox/white2.webp",
+        "images/products/shuba/silverfox/white3.webp"
+      ]
+    },
+    {
+      "id": 8,
+      "categoryId": 2,
+      "colorId": 2,
+      "title": "Пальто Francesca Peretti",
+      "price": 56700,
+      "size": [42, 44, 46, 48, 50, 52],
+      "newProd": false,
+      "sale": 20,
+      "images": [
+        "images/products/coat/francescaperetti/black1.webp",
+        "images/products/coat/francescaperetti/black2.webp",
+        "images/products/coat/francescaperetti/black3.webp"
+      ]
+    },
+    {
+      "id": 9,
+      "categoryId": 4,
+      "colorId": 4,
+      "title": "Парка Tommy Hilfiger",
+      "price": 209800,
+      "size": [42, 44, 46, 48],
+      "newProd": true,
+      "sale": 25,
+      "images": [
+        "images/products/parka/tommyhilfiger/blue1.webp",
+        "images/products/parka/tommyhilfiger/blue2.webp",
+        "images/products/parka/tommyhilfiger/blue3.webp"
+      ]
+    },
+    {
+      "id": 10,
+      "categoryId": 4,
+      "colorId": 5,
+      "title": "Парка Tommy Hilfiger",
+      "price": 209800,
+      "size": [42, 44, 46, 48],
+      "newProd": true,
+      "sale": 25,
+      "images": [
+        "images/products/parka/tommyhilfiger/beige1.webp",
+        "images/products/parka/tommyhilfiger/beige2.webp",
+        "images/products/parka/tommyhilfiger/beige3.webp"
+      ]
+    },
+    {
+      "id": 11,
+      "categoryId": 4,
+      "colorId": 1,
+      "title": "Парка Lui Jo Sport",
+      "price": 142300,
+      "size": [40, 42, 44, 46, 48],
+      "newProd": false,
+      "sale": 0,
+      "images": [
+        "images/products/parka/luijosport/white1.webp",
+        "images/products/parka/luijosport/white2.webp",
+        "images/products/parka/luijosport/white3.webp"
+      ]
+    },
+    {
+      "id": 12,
+      "categoryId": 1,
+      "colorId": 4,
+      "title": "Куртка утепленная Zarina",
+      "price": 49000,
+      "size": [42, 44, 46, 48, 50],
+      "newProd": true,
+      "sale": 0,
+      "images": [
+        "images/products/jaket/zarina2/beige1.webp",
+        "images/products/jaket/zarina2/beige2.webp",
+        "images/products/jaket/zarina2/beige3.webp"
+      ]
+    }
+  ]
+}

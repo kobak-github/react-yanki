@@ -1,0 +1,10 @@
+.catalog {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 900px;
+}

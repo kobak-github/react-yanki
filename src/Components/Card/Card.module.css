@@ -1,0 +1,102 @@
+.card {
+  width: 290px;
+  height: 510px;
+  text-align: center;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.imgBlock {
+  width: inherit;
+  height: 410px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.favoriteBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: var(--brown);
+  border-radius: 0px 0px 0px 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.new {
+  padding: 1px 10px;
+  color: var(--brown);
+  font-weight: 700;
+}
+.sale {
+  width: 60px;
+  padding: 1px 5px;
+  background-color: var(--brown);
+  color: var(--white);
+}
+
+.title {
+  margin-bottom: 5px;
+}
+
+.priceBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.priceSale {
+  font-weight: 700;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.priceOld {
+  text-decoration: line-through;
+  font-size: 12px;
+  line-height: 17px;
+  font-weight: 200;
+}
+.sizes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  color: rgba(37, 37, 37, 0.5);
+}
+.size + .size {
+  margin-left: 5px;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.color + .color {
+  margin-left: 5px;
+}

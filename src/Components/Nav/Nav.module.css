@@ -1,0 +1,24 @@
+.lists {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.list:hover {
+  color: #e0bea2;
+}
+
+.list + .list {
+  margin-left: 30px;
+}
+
+.activeLink {
+  color: #e0bea2;
+  cursor: default;
+}
